@@ -1,6 +1,6 @@
 <?php
-include_once "../Lesson4/Product.php";
-include_once "../Lesson3/ManagerProduct.php";
+include_once "Lesson4/Product.php";
+include_once "/Lesson3/ManagerProduct.php";
 
 use Services\ProductManager;
 use Models\Product;
@@ -13,3 +13,4 @@ $products = $productManager->getProducts();
 foreach ($products as $product) {
     echo $product->getName() ."<br/>";
 }
+Mobile
